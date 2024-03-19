@@ -75,3 +75,10 @@ It works with 25languages.
 Install Java version 17 and install Sonarqube Community free edition.
 
 SonarQube Installation: https://www.sonarsource.com/products/sonarqube/downloads/
+
+After installation run it on http://localhost:9000
+and login with default username and password admin:admin, which'll prompt to chnage password, change it and save somewhere carefully otherwise it'll be difficult to chnage password.
+
+Install SonarQube Extension on Azure DevOps from MarketPlace and create a service connection with that server.
+
+Build the YAML build pipeline between SonarQubePrepare@5 and SonarQubeAnalyze@5 tasks.
